@@ -21,6 +21,7 @@ public class Opgave306 {
 
     public static void main(String[] args) {
 
+        //Input objekt af klassen, som muliggør input
         Scanner input = new Scanner(System.in);
 
 
@@ -29,6 +30,7 @@ public class Opgave306 {
 
         System.out.print("Enter weight in pounds: ");
 
+        //Gemmer input som et double, eller kommatal
         double weight = input.nextDouble();
 
 
@@ -37,6 +39,7 @@ public class Opgave306 {
 
         System.out.print("Enter feet: ");
 
+        //Gemmer input som feet(double, eller kommatal)
         double feet = input.nextDouble();
 
 
@@ -45,6 +48,7 @@ public class Opgave306 {
 
         System.out.print("Enter inches: ");
 
+        //Gemmer input som double-kommatak
         double inches = input.nextDouble();
 
 
